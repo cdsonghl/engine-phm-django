@@ -1,0 +1,5 @@
+1. 图中绘制的数据是直接写在D:\Waiting\123\123\代码\djangoProject\static\js\demo 中的文件里
+2. dashboard 用数值形式显示设备的情况，三个系统的主要参数，状态
+3. chart显示历史曲线
+4. tables显示数据库中数据情况
+5. 报警事件查询
