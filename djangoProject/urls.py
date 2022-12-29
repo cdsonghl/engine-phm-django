@@ -16,9 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from phmsite.views import homepage
+from user.views import login, register, logout
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('phmsite/',homepage),
-    path('phmsite/dashboard',homepage)
+    path('login/',login),
+    path('register/',register),
+    path('logout/',logout),
 ]
